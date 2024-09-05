@@ -1,2 +1,2 @@
 install:
-mvn install:install-file -Dfile=connectivity-sdk.aar -Dsources=connectivity-sdk-sources.jar -Djavadoc=connectivity-sdk-javadoc.jar -DgroupId=com.vuzix -DartifactId=connectivity-sdk -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
+mvn install:install-file -Dfile=connectivity-sdk.aar -Dsources=connectivity-sdk-sources.jar -Djavadoc=connectivity-sdk-javadoc.jar -DpomFile=connectivity-sdk.pom -DgeneratePom=false
