@@ -1,2 +1,2 @@
 install:
-mvn install:install-file -Dfile=connectivity-sdk.aar -Dsources=connectivity-sdk-sources.jar -Djavadoc=connectivity-sdk-javadoc.jar -DpomFile=connectivity-sdk.pom -DgeneratePom=false
+mvn install:install-file -Dfile=connectivity-sdk.aar -Djavadoc=connectivity-sdk-javadoc.jar -DpomFile=connectivity-sdk.pom -DgeneratePom=false
